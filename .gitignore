@@ -1,0 +1,15 @@
+# Build outputs
+build/
+*.bin
+*.elf
+*.map
+.pio/
+# Editors / OS
+.vscode/
+*.code-workspace
+Thumbs.db
+desktop.ini
+# Archives (delete zips before committing)
+*.zip
+# Office lock files
+~$*
