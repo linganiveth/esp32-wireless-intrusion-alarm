@@ -1,15 +1,15 @@
 # Daily log: master checklist
 
-Status: Not started / In progress / Done. Dates are filled when the work happens.
+One file per working day (`YYYY-MM-DD.md`). Status: Done / Partly done / Open.
 
-| Day | Date | Task | Design-flow stage | Status | Log |
-|---|---|---|---|---|---|
-| 1 | 2026-11-01 | Freeze requirements, specification, architecture | Requirements -> Architecture | Not started | - |
-| 1 | 2026-11-01 | Buy parts; ESP-NOW ping between two ESP32s (lessons 01-02) | Architecture check | Not started | - |
-| 2 | 2026-11-01 | Build detector + hub circuits (lessons 03-06) | HW design + implementation | Not started | - |
-| 2 | 2026-11-01 | Run HT1-HT6 | HW testing | Not started | - |
-| 3 | 2026-11-01 | Detector firmware, hub state machine, keypad, OLED, siren (lessons 07-09) | SW implementation | Not started | - |
-| 3 | 2026-11-01 | Run ST1-ST6 | SW testing | Not started | - |
-| 4 | 2026-11-01 | Integration steps 1-6, phone web page (lessons 10-11) | Integration | Not started | - |
-| 4 | 2026-11-01 | Acceptance tests T1-T7 with latency | Validation | Not started | - |
-| 5 | 2026-11-01 | Fixes, report, slides, demo rehearsal (lesson 12) | O&M + submission | Not started | - |
+| Date | Task | Design-flow stage | Status | Log |
+|---|---|---|---|---|
+| 2026-10-30 | Freeze topic, requirements, architecture; create repository structure | Requirements → Architecture | Done | [2026-10-30](2026-10-30.md) |
+| 2026-11-01 | Board check, ESP-NOW ping, switch inputs, PIR (lessons 01–04) | Architecture check, HW design + test | Done | [2026-11-01](2026-11-01.md) |
+| 2026-11-01 | Run HT2, HT3, HT6 | HW testing | Done | [2026-11-01](2026-11-01.md) |
+| 2026-11-05 | Hub hardware (lesson 05), LED test (HT5) | HW implementation + test | Done (LEDs); keypad/OLED/siren values open | [2026-11-05](2026-11-05.md) |
+| 2026-11-05 | Detector + hub firmware: protocol, FSM, supervision, phone page (lessons 07–10) | SW design + implementation | Done | [2026-11-05](2026-11-05.md) |
+| 2026-11-05 | Schematics, demo plan | HW design, validation prep | Done | [2026-11-05](2026-11-05.md) |
+| 2026-11-06 | Review slides; ST1–ST11; final demo (Review 1 + 2) | SW testing, validation | Partly done (results to be recorded) | [2026-11-06](2026-11-06.md) |
+| 2026-11-09 | Project report; stage documents 01–08; repository completed | Report, O&M | Done | [2026-11-09](2026-11-09.md) |
+| Open | Fill HT1, HT4, HT5 keypad/OLED, range, latency and ST results | Testing, validation | Open | — |

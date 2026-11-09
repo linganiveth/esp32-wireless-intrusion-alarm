@@ -9,7 +9,13 @@ build/
 *.code-workspace
 Thumbs.db
 desktop.ini
-# Archives (delete zips before committing)
+.DS_Store
+# Python
+__pycache__/
+*.pyc
+.venv/
+# Archives
 *.zip
-# Office lock files
+# Office lock / temp files
 ~$*
+*.tmp

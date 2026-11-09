@@ -46,7 +46,7 @@ Record:
 
 | Distance | Sent | Received | Loss % | Avg RTT (ms) | Max RTT (ms) |
 |---|---|---|---|---|---|
-| Same desk | | | | | |
+| Same desk (2026-11-01) | 810 | 788 | 0 % steady state (all 22 losses before #358, i.e. during start-up / unplug test) | 3.19 (typical 2.4-3.0) | 28.79 |
 | ~10 m / through a wall (HT6) | | | | | |
 
 ## 4. Common mistakes
